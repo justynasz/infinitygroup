@@ -115,6 +115,11 @@
         font-size: 24px;
     }
 
+    .contact-form__input {
+        min-width: 160px;
+        text-indent: 5px;
+    }
+
     .checkbox__label {
         margin-top: 15px;
         font-size: 15px;
@@ -151,7 +156,7 @@
     }
 
     .content__text {
-        width: 430px;
+        width: 380px;
     }
 
     .page-header .container {
@@ -290,13 +295,22 @@
     }
 
     .contact-form__label {
-        width: 480px;
+        width: 390px;
         font-size: 20px;
+        display: inline-block;
+        height: auto;
+        text-align: right;
     }
 
     .contact-form__input {
         font-size: 12px;
         text-indent: 10px;
+        width: 150px;
+    }
+
+    .contact-form__label span:after {
+        content: '\A';
+        white-space: pre;
     }
 
     .checkbox__label {
@@ -305,6 +319,10 @@
 
     .btn__wrapper {
         margin-top: 30px;
+    }
+
+    .scroll {
+        display: none;
     }
 }
 
@@ -439,22 +457,15 @@
     }
 
     .contact-form__label {
-        display: inline-block;
         width: 270px;
-        height: auto;
         font-size: 16px;
-        text-align: right;
     }
 
     .contact-form__input {
         width: 110px;
+        min-width: 90px;
         font-size: 10px;
-        text-indent: 7px;
-    }
-
-    .contact-form__label span:after {
-        content: '\A';
-        white-space: pre;
+        text-indent: 5px;
     }
 
     .checkbox__label {
