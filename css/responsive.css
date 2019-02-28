@@ -1,0 +1,501 @@
+@media (max-width: 1024px) {
+    .container {
+        max-width: 700px;
+    }
+
+    .section__title {
+        font-size: 40px;
+    }
+
+    .btn {
+        font-size: 20px;
+    }
+
+    .section__paragraph,
+    .content__text,
+    .client__position,
+    .address__item,
+    .contact__description {
+        font-size: 20px;
+    }
+
+    .content__text {
+        line-height: 35px;
+        width: 590px;
+    }
+
+    .cookie__paragraph {
+        width: 500px;
+        height: auto;
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    .btn--close {
+        width: 90px;
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+    .sliders {
+        margin-top: 20px;
+    }
+
+    .slide {
+        padding: 0 50px 0 20px;
+    }
+
+    .client__paragraph {
+        width: 370px;
+        font-size: 24px;
+    }
+
+    .client-tags__item {
+        font-size: 14px;
+    }
+
+    .products {
+        padding: 100px 0 130px;
+    }
+
+    .products__gallery {
+        margin-top: 20px;
+        padding: 0 50px 0 30px;
+    }
+
+    .gallery__item {
+        padding-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    .gallery__item img {
+        padding: 25px;
+    }
+
+    .item__details {
+        padding: 0 10px 10px 10px;
+        font-size: 12px;
+    }
+
+    .location {
+        background-position: 70% 60%;
+        color: black;
+    }
+
+    .location:after {
+        content: '';
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(255, 255, 255, .3);
+    }
+
+    .address__item {
+        width: 200px;
+        font-weight: 400;
+        text-shadow: 0 1px 0 #2d2d2d;
+        color: black;
+        z-index: 999;
+        /* z-index: 2;  */
+    }
+
+    .contact__content {
+        width: 620px;
+        margin: 50px 0;
+    }
+
+    .contact-form {
+        margin-top: 40px;
+    }
+
+    .contact-form__label {
+        width: 620px;
+        font-size: 24px;
+    }
+
+    .checkbox__label {
+        margin-top: 15px;
+        font-size: 15px;
+    }
+
+    .scroll {
+        width: 80px;
+    }
+
+    .fas {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 520px;
+    }
+
+    .intro__heading {
+        font-size: 40px;
+    }
+
+    .section__title {
+        font-size: 35px;
+    }
+
+    .section__paragraph,
+    .content__text,
+    .client__position,
+    .address__item,
+    .contact__description {
+        font-size: 18px;
+    }
+
+    .content__text {
+        width: 430px;
+    }
+
+    .page-header .container {
+        max-width: 100%;
+    }
+
+    .menu__wrapper {
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 95px;
+        z-index: 99;
+    }
+
+    .burger__wrapper {
+        width: 95px;
+    }
+
+    .site-nav {
+        transform: translateX(-170%);
+    }
+
+    .site-nav.active {
+        background-color: #333;
+        transform: translateX(95px);
+        margin-left: 0;
+        width: calc(100% - 95px);
+        z-index: 99;
+    }
+
+    .site-nav__menu {
+        justify-content: flex-start;
+    }
+
+    .site-nav__link {
+        width: 105px;
+    }
+
+    .site-nav__link:hover {
+        color: #62c017;
+    }
+
+    .brand {
+        position: absolute;
+        order: 3;
+        right: 0;
+        top: 0;
+    }
+
+    .burger__wrapper {
+        display: flex;
+    }
+
+    .cookie__paragraph {
+        width: 340px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .mission {
+        padding: 100px 40px;
+    }
+
+    .mission__container {
+        padding: 30px 0;
+    }
+
+    .quote:before {
+        font-size: 22px;
+    }
+
+    .sliders {
+        height: 280px;
+        margin-top: 30px;
+    }
+
+    .slide {
+        padding: 0 30px 0 0;
+    }
+
+    .client__paragraph {
+        width: 290px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .client__position {
+        margin-top: 15px;
+    }
+
+    .client-tags__list {
+        margin-top: 25px;
+    }
+
+    .client-tags__item {
+        font-size: 13px;
+    }
+
+    .section__paragraph {
+        margin-top: 15px;
+    }
+
+    .clients,
+    .products,
+    .contact {
+        min-height: 60vh;
+    }
+
+    .products__gallery {
+        padding: 0 10px 0 0;
+    }
+
+    .gallery__item img {
+        padding: 25px 25px 10px;
+    }
+
+    .item__details {
+        padding: 0 7px 7px 7px;
+        font-size: 10px;
+    }
+
+    .location,
+    .location .container {
+        min-height: 55vh;
+    }
+
+    .contact__content {
+        width: 500px;
+        margin: 50px 0 0;
+    }
+
+    .contact-form {
+        margin-top: 35px;
+    }
+
+    .contact-form__label {
+        width: 480px;
+        font-size: 20px;
+    }
+
+    .contact-form__input {
+        font-size: 12px;
+        text-indent: 10px;
+    }
+
+    .checkbox__label {
+        margin-top: 10px;
+    }
+
+    .btn__wrapper {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 530px) {
+    .container {
+        max-width: 310px;
+    }
+
+    .intro__heading {
+        font-size: 33px;
+        line-height: 50px;
+    }
+
+    .page-header,
+    .page-header .nav--sticky,
+    .menu__wrapper,
+    .site-nav {
+        height: 80px;
+    }
+
+    .burger__wrapper {
+        width: 80px;
+        height: 80px;
+    }
+
+    .brand {
+        width: 80px;
+        height: 80px;
+    }
+
+    .site-nav.active {
+        width: calc(100% - 80px);
+        transform: translateX(80px);
+    }
+
+    .site-nav__link {
+        width: 65px;
+        font-size: 12px;
+    }
+
+    .site-nav__link:hover {
+        font-size: 14px;
+    }
+
+    .cookies {
+        height: 150px;
+    }
+
+    .cookie__paragraph {
+        width: 160px;
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .mission {
+        padding: 100px 0;
+    }
+
+    .mission__container {
+        padding: 20px 0;
+    }
+
+    .content__text {
+        width: 240px;
+        line-height: 25px;
+    }
+
+    .sliders {
+        height: 390px;
+    }
+
+    .slide__wrapper {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .slide__img {
+        flex-basis: auto;
+    }
+
+    .slide__img img {
+        height: auto;
+        width: 110px;
+    }
+
+    .client__description {
+        align-items: center;
+        align-items: stretch;
+        padding-left: 3px;
+    }
+
+    .client__paragraph {
+        width: 220px;
+        line-height: 25px;
+        font-size: 18px;
+    }
+
+    .client-tags__item {
+        font-size: 11px;
+    }
+
+    .products {
+        min-height: 70vh;
+        padding: 100px 0 150px;
+    }
+
+    .gallery__item {
+        width: 33%;
+    }
+
+    .gallery__item img {
+        padding: 30px 30px 10px;
+    }
+
+    .item__details {
+        padding: 0 7px 7px 7px;
+        font-size: 10px;
+    }
+
+    .contact__content {
+        width: 100%;
+        margin: 50px 0 0;
+    }
+
+    .contact__description {
+        line-height: 25px;
+    }
+
+    .contact-form {
+        margin-top: 25px;
+    }
+
+    .contact-form__label {
+        display: inline-block;
+        width: 270px;
+        height: auto;
+        font-size: 16px;
+        text-align: right;
+    }
+
+    .contact-form__input {
+        width: 110px;
+        font-size: 10px;
+        text-indent: 7px;
+    }
+
+    .contact-form__label span:after {
+        content: '\A';
+        white-space: pre;
+    }
+
+    .checkbox__label {
+        font-size: 13px;
+        line-height: 25px;
+        padding: 10px;
+    }
+
+    .section__title {
+        font-size: 35px;
+    }
+
+    .section__paragraph,
+    .content__text,
+    .client__position,
+    .address__item,
+    .contact__description {
+        font-size: 16px;
+    }
+
+    .section__paragraph {
+        line-height: 25px;
+    }
+
+    .btn {
+        font-size: 18px;
+    }
+
+    .btn--close {
+        font-size: 15px;
+    }
+
+    .btn__contact,
+    .btn__send {
+        height: 35px;
+        padding-right: 40px;
+    }
+
+    .btn__contact:after,
+    .btn__send:after,
+    .btn--close:after {
+        top: 4px;
+    }
+}
